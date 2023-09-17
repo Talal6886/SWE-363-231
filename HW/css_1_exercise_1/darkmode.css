@@ -1,0 +1,29 @@
+
+body {
+    background-color: black;
+  }
+  
+  body, h1{
+    color: #d7d7d7;
+  }
+
+  
+    p, label, input, textarea, a{
+        color: #a8a8a8; 
+    }
+  
+  
+  header, footer {
+    background-color: #292929;
+  }
+  
+  /* color for links */
+  a {
+    color: #519950;
+  }
+  
+  input, textarea {
+    background-color: #1c1c1c;
+    border-color: #2b4e2b;
+    color: white;
+  }
