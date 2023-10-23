@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #290000;
+  color: #b10600;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}

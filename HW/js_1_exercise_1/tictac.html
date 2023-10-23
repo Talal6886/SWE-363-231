@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Tic-Tac-Toe</h1>
+  <div id="game-board">
+    <div class="row">
+      <div class="cell" onclick="movement(0, 0)"></div>
+      <div class="cell" onclick="movement(0, 1)"></div>
+      <div class="cell" onclick="movement(0, 2)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" onclick="movement(1, 0)"></div>
+      <div class="cell" onclick="movement(1, 1)"></div>
+      <div class="cell" onclick="movement(1, 2)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" onclick="movement(2, 0)"></div>
+      <div class="cell" onclick="movement(2, 1)"></div>
+      <div class="cell" onclick="movement(2, 2)"></div>
+    </div>
+  </div>
+  <button id="reset-button" onclick="resetGame()">Reset</button>
+  <script src="gametic.js"></script>
+</body>
+</html>
