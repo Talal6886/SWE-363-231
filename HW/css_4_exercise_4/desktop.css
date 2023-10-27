@@ -1,0 +1,14 @@
+
+.right-section {
+    float: right;
+    width: 30%;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+  .hidden-on-desktop {
+    display: none;
+  }
