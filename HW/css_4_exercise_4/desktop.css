@@ -1,14 +1,57 @@
+@media (min-width: 768px) {
 
-.right-section {
-    float: right;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-items {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .aside {
     width: 30%;
+    margin-left: 2rem;
   }
-  
-  .card {
-    margin-bottom: 30px;
-    padding: 20px;
+
+  .main-article {
+    width: 70%;
   }
-  
-  .hidden-on-desktop {
-    display: none;
+
+
+  .container {
+    margin: 0 auto;
+    padding: 2rem;
   }
+
+  .header {
+    padding: 1rem 2rem;
+  }
+
+  .nav-items li {
+    padding: 0.5rem 1rem;
+  }
+
+  .main-article {
+    padding: 2rem;
+  }
+
+  .aside {
+    padding: 1rem;
+  }
+
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

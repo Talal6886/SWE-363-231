@@ -39,6 +39,21 @@
                 </p>
         
             </main>
+            <script>
+                const apiKey = '575284a1862c8cc37ce66d3f2a1bee29';
+                const endpoint = 'https://api.adzuna.com/v1/api/jobs/us/search/1';
+
+                fetch(`${endpoint}?app_id=${apiKey}`)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data.results); // Output the job listings to the console
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+
+
+            </script>
         </body>
 
 
@@ -47,6 +62,8 @@
 <a href="contact.html">Contact Us</a>
 
 <a href="comparison.html">Comparison</a>
+
+<a href="tactoe.html">Mini-Game</a>
 
 <form action="confrimation.html" method="POST">
     <label for="message">Message:</label><br>
